@@ -14,7 +14,7 @@
 		16D0691B1834F6A200D366EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0691A1834F6A200D366EC /* main.m */; };
 		16D0691F1834F6A200D366EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0691E1834F6A200D366EC /* AppDelegate.m */; };
 		16D069221834F6A200D366EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D069201834F6A200D366EC /* Main.storyboard */; };
-		16D069251834F6A200D366EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D069241834F6A200D366EC /* ViewController.m */; };
+		16D069251834F6A200D366EC /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D069241834F6A200D366EC /* LoginPage.m */; };
 		16D069271834F6A200D366EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D069261834F6A200D366EC /* Images.xcassets */; };
 		16D0692E1834F6A200D366EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0692D1834F6A200D366EC /* XCTest.framework */; };
 		16D0692F1834F6A200D366EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0690E1834F6A200D366EC /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		16D0691D1834F6A200D366EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16D0691E1834F6A200D366EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		16D069211834F6A200D366EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16D069231834F6A200D366EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16D069241834F6A200D366EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16D069231834F6A200D366EC /* LoginPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		16D069241834F6A200D366EC /* LoginPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
 		16D069261834F6A200D366EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16D0692C1834F6A200D366EC /* CheckerbarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckerbarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D0692D1834F6A200D366EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				16D0691D1834F6A200D366EC /* AppDelegate.h */,
 				16D0691E1834F6A200D366EC /* AppDelegate.m */,
 				16D069201834F6A200D366EC /* Main.storyboard */,
-				16D069231834F6A200D366EC /* ViewController.h */,
-				16D069241834F6A200D366EC /* ViewController.m */,
+				16D069231834F6A200D366EC /* LoginPage.h */,
+				16D069241834F6A200D366EC /* LoginPage.m */,
 				16D069261834F6A200D366EC /* Images.xcassets */,
 				16D069151834F6A200D366EC /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D069251834F6A200D366EC /* ViewController.m in Sources */,
+				16D069251834F6A200D366EC /* LoginPage.m in Sources */,
 				16D0691F1834F6A200D366EC /* AppDelegate.m in Sources */,
 				16D0691B1834F6A200D366EC /* main.m in Sources */,
 			);
@@ -460,6 +460,7 @@
 				16D0693F1834F6A200D366EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16D069401834F6A200D366EC /* Build configuration list for PBXNativeTarget "CheckerbarCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				16D069421834F6A200D366EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

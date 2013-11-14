@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Gizmoplay. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginPage.h"
 
-@interface ViewController ()
+@interface LoginPage ()
 
 @end
 
-@implementation ViewController
+@implementation LoginPage
 
 - (void)viewDidLoad
 {

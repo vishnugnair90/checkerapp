@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CheckerBarCode.xcscheme</key>
+		<key>CheckerbarCode.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>166A70E418361EB40068ACDC</key>
+		<key>16D0690A1834F6A200D366EC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>166A710518361EB40068ACDC</key>
+		<key>16D0692B1834F6A200D366EC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

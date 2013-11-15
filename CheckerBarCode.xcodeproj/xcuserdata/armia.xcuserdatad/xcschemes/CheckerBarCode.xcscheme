@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166A70E418361EB40068ACDC"
-               BuildableName = "CheckerBarCode.app"
-               BlueprintName = "CheckerBarCode"
-               ReferencedContainer = "container:CheckerBarCode.xcodeproj">
+               BlueprintIdentifier = "16D0690A1834F6A200D366EC"
+               BuildableName = "CheckerbarCode.app"
+               BlueprintName = "CheckerbarCode"
+               ReferencedContainer = "container:CheckerbarCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166A710518361EB40068ACDC"
-               BuildableName = "CheckerBarCodeTests.xctest"
-               BlueprintName = "CheckerBarCodeTests"
-               ReferencedContainer = "container:CheckerBarCode.xcodeproj">
+               BlueprintIdentifier = "16D0692B1834F6A200D366EC"
+               BuildableName = "CheckerbarCodeTests.xctest"
+               BlueprintName = "CheckerbarCodeTests"
+               ReferencedContainer = "container:CheckerbarCode.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "166A70E418361EB40068ACDC"
-            BuildableName = "CheckerBarCode.app"
-            BlueprintName = "CheckerBarCode"
-            ReferencedContainer = "container:CheckerBarCode.xcodeproj">
+            BlueprintIdentifier = "16D0690A1834F6A200D366EC"
+            BuildableName = "CheckerbarCode.app"
+            BlueprintName = "CheckerbarCode"
+            ReferencedContainer = "container:CheckerbarCode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "166A70E418361EB40068ACDC"
-            BuildableName = "CheckerBarCode.app"
-            BlueprintName = "CheckerBarCode"
-            ReferencedContainer = "container:CheckerBarCode.xcodeproj">
+            BlueprintIdentifier = "16D0690A1834F6A200D366EC"
+            BuildableName = "CheckerbarCode.app"
+            BlueprintName = "CheckerbarCode"
+            ReferencedContainer = "container:CheckerbarCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "166A70E418361EB40068ACDC"
-            BuildableName = "CheckerBarCode.app"
-            BlueprintName = "CheckerBarCode"
-            ReferencedContainer = "container:CheckerBarCode.xcodeproj">
+            BlueprintIdentifier = "16D0690A1834F6A200D366EC"
+            BuildableName = "CheckerbarCode.app"
+            BlueprintName = "CheckerbarCode"
+            ReferencedContainer = "container:CheckerbarCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

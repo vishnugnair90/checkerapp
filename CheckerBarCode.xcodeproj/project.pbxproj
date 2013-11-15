@@ -7,147 +7,187 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		166A70E918361EB40068ACDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A70E818361EB40068ACDC /* Foundation.framework */; };
-		166A70EB18361EB40068ACDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A70EA18361EB40068ACDC /* CoreGraphics.framework */; };
-		166A70ED18361EB40068ACDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A70EC18361EB40068ACDC /* UIKit.framework */; };
-		166A70F318361EB40068ACDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166A70F118361EB40068ACDC /* InfoPlist.strings */; };
-		166A70F518361EB40068ACDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166A70F418361EB40068ACDC /* main.m */; };
-		166A70F918361EB40068ACDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166A70F818361EB40068ACDC /* AppDelegate.m */; };
-		166A70FC18361EB40068ACDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166A70FA18361EB40068ACDC /* Main.storyboard */; };
-		166A70FF18361EB40068ACDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166A70FE18361EB40068ACDC /* ViewController.m */; };
-		166A710118361EB40068ACDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166A710018361EB40068ACDC /* Images.xcassets */; };
-		166A710818361EB40068ACDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A710718361EB40068ACDC /* XCTest.framework */; };
-		166A710918361EB40068ACDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A70E818361EB40068ACDC /* Foundation.framework */; };
-		166A710A18361EB40068ACDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A70EC18361EB40068ACDC /* UIKit.framework */; };
-		166A711218361EB40068ACDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166A711018361EB40068ACDC /* InfoPlist.strings */; };
-		166A711418361EB50068ACDC /* CheckerBarCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166A711318361EB50068ACDC /* CheckerBarCodeTests.m */; };
+		166A71211836234B0068ACDC /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 166A711F1836234B0068ACDC /* LoginPage.m */; };
+		166A71241836235F0068ACDC /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 166A71231836235F0068ACDC /* Register.m */; };
+		16BCC3D71835D4D100C5C083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BCC3D31835D4D100C5C083 /* AppDelegate.m */; };
+		16BCC3DA1835E92B00C5C083 /* CheckerBarCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BCC3D91835E92B00C5C083 /* CheckerBarCode.storyboard */; };
+		16D0690F1834F6A200D366EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0690E1834F6A200D366EC /* Foundation.framework */; };
+		16D069111834F6A200D366EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D069101834F6A200D366EC /* CoreGraphics.framework */; };
+		16D069131834F6A200D366EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D069121834F6A200D366EC /* UIKit.framework */; };
+		16D069191834F6A200D366EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16D069171834F6A200D366EC /* InfoPlist.strings */; };
+		16D0691B1834F6A200D366EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0691A1834F6A200D366EC /* main.m */; };
+		16D069221834F6A200D366EC /* CheckerBarCode_4inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D069201834F6A200D366EC /* CheckerBarCode_4inch.storyboard */; };
+		16D069271834F6A200D366EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D069261834F6A200D366EC /* Images.xcassets */; };
+		16D0692E1834F6A200D366EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0692D1834F6A200D366EC /* XCTest.framework */; };
+		16D0692F1834F6A200D366EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0690E1834F6A200D366EC /* Foundation.framework */; };
+		16D069301834F6A200D366EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D069121834F6A200D366EC /* UIKit.framework */; };
+		16D069381834F6A200D366EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16D069361834F6A200D366EC /* InfoPlist.strings */; };
+		16D0693A1834F6A200D366EC /* CheckerbarCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D069391834F6A200D366EC /* CheckerbarCodeTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		166A710B18361EB40068ACDC /* PBXContainerItemProxy */ = {
+		16D069311834F6A200D366EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 166A70DD18361EB40068ACDC /* Project object */;
+			containerPortal = 16D069031834F6A200D366EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 166A70E418361EB40068ACDC;
-			remoteInfo = CheckerBarCode;
+			remoteGlobalIDString = 16D0690A1834F6A200D366EC;
+			remoteInfo = CheckerbarCode;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		166A70E518361EB40068ACDC /* CheckerBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckerBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		166A70E818361EB40068ACDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		166A70EA18361EB40068ACDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		166A70EC18361EB40068ACDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		166A70F018361EB40068ACDC /* CheckerBarCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckerBarCode-Info.plist"; sourceTree = "<group>"; };
-		166A70F218361EB40068ACDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		166A70F418361EB40068ACDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		166A70F618361EB40068ACDC /* CheckerBarCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckerBarCode-Prefix.pch"; sourceTree = "<group>"; };
-		166A70F718361EB40068ACDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		166A70F818361EB40068ACDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		166A70FB18361EB40068ACDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		166A70FD18361EB40068ACDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		166A70FE18361EB40068ACDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		166A710018361EB40068ACDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		166A710618361EB40068ACDC /* CheckerBarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckerBarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		166A710718361EB40068ACDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		166A710F18361EB40068ACDC /* CheckerBarCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckerBarCodeTests-Info.plist"; sourceTree = "<group>"; };
-		166A711118361EB40068ACDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		166A711318361EB50068ACDC /* CheckerBarCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckerBarCodeTests.m; sourceTree = "<group>"; };
+		166A711E1836234B0068ACDC /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		166A711F1836234B0068ACDC /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		166A71221836235F0068ACDC /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		166A71231836235F0068ACDC /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		16BCC3D21835D4D100C5C083 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16BCC3D31835D4D100C5C083 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16BCC3D91835E92B00C5C083 /* CheckerBarCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CheckerBarCode.storyboard; sourceTree = "<group>"; };
+		16D0690B1834F6A200D366EC /* CheckerbarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckerbarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D0690E1834F6A200D366EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16D069101834F6A200D366EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16D069121834F6A200D366EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16D069161834F6A200D366EC /* CheckerbarCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckerbarCode-Info.plist"; sourceTree = "<group>"; };
+		16D069181834F6A200D366EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16D0691A1834F6A200D366EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16D0691C1834F6A200D366EC /* CheckerbarCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckerbarCode-Prefix.pch"; sourceTree = "<group>"; };
+		16D069211834F6A200D366EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CheckerBarCode_4inch.storyboard; sourceTree = "<group>"; };
+		16D069261834F6A200D366EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16D0692C1834F6A200D366EC /* CheckerbarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckerbarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D0692D1834F6A200D366EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		16D069351834F6A200D366EC /* CheckerbarCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckerbarCodeTests-Info.plist"; sourceTree = "<group>"; };
+		16D069371834F6A200D366EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16D069391834F6A200D366EC /* CheckerbarCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckerbarCodeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		166A70E218361EB40068ACDC /* Frameworks */ = {
+		16D069081834F6A200D366EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166A70EB18361EB40068ACDC /* CoreGraphics.framework in Frameworks */,
-				166A70ED18361EB40068ACDC /* UIKit.framework in Frameworks */,
-				166A70E918361EB40068ACDC /* Foundation.framework in Frameworks */,
+				16D069111834F6A200D366EC /* CoreGraphics.framework in Frameworks */,
+				16D069131834F6A200D366EC /* UIKit.framework in Frameworks */,
+				16D0690F1834F6A200D366EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		166A710318361EB40068ACDC /* Frameworks */ = {
+		16D069291834F6A200D366EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166A710818361EB40068ACDC /* XCTest.framework in Frameworks */,
-				166A710A18361EB40068ACDC /* UIKit.framework in Frameworks */,
-				166A710918361EB40068ACDC /* Foundation.framework in Frameworks */,
+				16D0692E1834F6A200D366EC /* XCTest.framework in Frameworks */,
+				16D069301834F6A200D366EC /* UIKit.framework in Frameworks */,
+				16D0692F1834F6A200D366EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		166A70DC18361EB40068ACDC = {
+		166A711D1836234B0068ACDC /* Login Page */ = {
 			isa = PBXGroup;
 			children = (
-				166A70EE18361EB40068ACDC /* CheckerBarCode */,
-				166A710D18361EB40068ACDC /* CheckerBarCodeTests */,
-				166A70E718361EB40068ACDC /* Frameworks */,
-				166A70E618361EB40068ACDC /* Products */,
+				166A711E1836234B0068ACDC /* LoginPage.h */,
+				166A711F1836234B0068ACDC /* LoginPage.m */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		166A71201836234B0068ACDC /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				166A71221836235F0068ACDC /* Register.h */,
+				166A71231836235F0068ACDC /* Register.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		16BCC3D11835D4D100C5C083 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				16BCC3D21835D4D100C5C083 /* AppDelegate.h */,
+				16BCC3D31835D4D100C5C083 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16BCC3D41835D4D100C5C083 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				166A711D1836234B0068ACDC /* Login Page */,
+				166A71201836234B0068ACDC /* Register */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		16D069021834F6A200D366EC = {
+			isa = PBXGroup;
+			children = (
+				16D069141834F6A200D366EC /* CheckerbarCode */,
+				16D069331834F6A200D366EC /* CheckerbarCodeTests */,
+				16D0690D1834F6A200D366EC /* Frameworks */,
+				16D0690C1834F6A200D366EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		166A70E618361EB40068ACDC /* Products */ = {
+		16D0690C1834F6A200D366EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				166A70E518361EB40068ACDC /* CheckerBarCode.app */,
-				166A710618361EB40068ACDC /* CheckerBarCodeTests.xctest */,
+				16D0690B1834F6A200D366EC /* CheckerbarCode.app */,
+				16D0692C1834F6A200D366EC /* CheckerbarCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		166A70E718361EB40068ACDC /* Frameworks */ = {
+		16D0690D1834F6A200D366EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				166A70E818361EB40068ACDC /* Foundation.framework */,
-				166A70EA18361EB40068ACDC /* CoreGraphics.framework */,
-				166A70EC18361EB40068ACDC /* UIKit.framework */,
-				166A710718361EB40068ACDC /* XCTest.framework */,
+				16D0690E1834F6A200D366EC /* Foundation.framework */,
+				16D069101834F6A200D366EC /* CoreGraphics.framework */,
+				16D069121834F6A200D366EC /* UIKit.framework */,
+				16D0692D1834F6A200D366EC /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		166A70EE18361EB40068ACDC /* CheckerBarCode */ = {
+		16D069141834F6A200D366EC /* CheckerbarCode */ = {
 			isa = PBXGroup;
 			children = (
-				166A70F718361EB40068ACDC /* AppDelegate.h */,
-				166A70F818361EB40068ACDC /* AppDelegate.m */,
-				166A70FA18361EB40068ACDC /* Main.storyboard */,
-				166A70FD18361EB40068ACDC /* ViewController.h */,
-				166A70FE18361EB40068ACDC /* ViewController.m */,
-				166A710018361EB40068ACDC /* Images.xcassets */,
-				166A70EF18361EB40068ACDC /* Supporting Files */,
+				16BCC3D11835D4D100C5C083 /* AppDelegate */,
+				16BCC3D41835D4D100C5C083 /* Classes */,
+				16D069201834F6A200D366EC /* CheckerBarCode_4inch.storyboard */,
+				16BCC3D91835E92B00C5C083 /* CheckerBarCode.storyboard */,
+				16D069261834F6A200D366EC /* Images.xcassets */,
+				16D069151834F6A200D366EC /* Supporting Files */,
 			);
-			path = CheckerBarCode;
+			path = CheckerbarCode;
 			sourceTree = "<group>";
 		};
-		166A70EF18361EB40068ACDC /* Supporting Files */ = {
+		16D069151834F6A200D366EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				166A70F018361EB40068ACDC /* CheckerBarCode-Info.plist */,
-				166A70F118361EB40068ACDC /* InfoPlist.strings */,
-				166A70F418361EB40068ACDC /* main.m */,
-				166A70F618361EB40068ACDC /* CheckerBarCode-Prefix.pch */,
+				16D069161834F6A200D366EC /* CheckerbarCode-Info.plist */,
+				16D069171834F6A200D366EC /* InfoPlist.strings */,
+				16D0691A1834F6A200D366EC /* main.m */,
+				16D0691C1834F6A200D366EC /* CheckerbarCode-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		166A710D18361EB40068ACDC /* CheckerBarCodeTests */ = {
+		16D069331834F6A200D366EC /* CheckerbarCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				166A711318361EB50068ACDC /* CheckerBarCodeTests.m */,
-				166A710E18361EB40068ACDC /* Supporting Files */,
+				16D069391834F6A200D366EC /* CheckerbarCodeTests.m */,
+				16D069341834F6A200D366EC /* Supporting Files */,
 			);
-			path = CheckerBarCodeTests;
+			path = CheckerbarCodeTests;
 			sourceTree = "<group>";
 		};
-		166A710E18361EB40068ACDC /* Supporting Files */ = {
+		16D069341834F6A200D366EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				166A710F18361EB40068ACDC /* CheckerBarCodeTests-Info.plist */,
-				166A711018361EB40068ACDC /* InfoPlist.strings */,
+				16D069351834F6A200D366EC /* CheckerbarCodeTests-Info.plist */,
+				16D069361834F6A200D366EC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,56 +195,56 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		166A70E418361EB40068ACDC /* CheckerBarCode */ = {
+		16D0690A1834F6A200D366EC /* CheckerbarCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 166A711718361EB50068ACDC /* Build configuration list for PBXNativeTarget "CheckerBarCode" */;
+			buildConfigurationList = 16D0693D1834F6A200D366EC /* Build configuration list for PBXNativeTarget "CheckerbarCode" */;
 			buildPhases = (
-				166A70E118361EB40068ACDC /* Sources */,
-				166A70E218361EB40068ACDC /* Frameworks */,
-				166A70E318361EB40068ACDC /* Resources */,
+				16D069071834F6A200D366EC /* Sources */,
+				16D069081834F6A200D366EC /* Frameworks */,
+				16D069091834F6A200D366EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CheckerBarCode;
-			productName = CheckerBarCode;
-			productReference = 166A70E518361EB40068ACDC /* CheckerBarCode.app */;
+			name = CheckerbarCode;
+			productName = CheckerbarCode;
+			productReference = 16D0690B1834F6A200D366EC /* CheckerbarCode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		166A710518361EB40068ACDC /* CheckerBarCodeTests */ = {
+		16D0692B1834F6A200D366EC /* CheckerbarCodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 166A711A18361EB50068ACDC /* Build configuration list for PBXNativeTarget "CheckerBarCodeTests" */;
+			buildConfigurationList = 16D069401834F6A200D366EC /* Build configuration list for PBXNativeTarget "CheckerbarCodeTests" */;
 			buildPhases = (
-				166A710218361EB40068ACDC /* Sources */,
-				166A710318361EB40068ACDC /* Frameworks */,
-				166A710418361EB40068ACDC /* Resources */,
+				16D069281834F6A200D366EC /* Sources */,
+				16D069291834F6A200D366EC /* Frameworks */,
+				16D0692A1834F6A200D366EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				166A710C18361EB40068ACDC /* PBXTargetDependency */,
+				16D069321834F6A200D366EC /* PBXTargetDependency */,
 			);
-			name = CheckerBarCodeTests;
-			productName = CheckerBarCodeTests;
-			productReference = 166A710618361EB40068ACDC /* CheckerBarCodeTests.xctest */;
+			name = CheckerbarCodeTests;
+			productName = CheckerbarCodeTests;
+			productReference = 16D0692C1834F6A200D366EC /* CheckerbarCodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		166A70DD18361EB40068ACDC /* Project object */ = {
+		16D069031834F6A200D366EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Gizmoplay;
 				TargetAttributes = {
-					166A710518361EB40068ACDC = {
-						TestTargetID = 166A70E418361EB40068ACDC;
+					16D0692B1834F6A200D366EC = {
+						TestTargetID = 16D0690A1834F6A200D366EC;
 					};
 				};
 			};
-			buildConfigurationList = 166A70E018361EB40068ACDC /* Build configuration list for PBXProject "CheckerBarCode" */;
+			buildConfigurationList = 16D069061834F6A200D366EC /* Build configuration list for PBXProject "CheckerbarCode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,88 +252,90 @@
 				en,
 				Base,
 			);
-			mainGroup = 166A70DC18361EB40068ACDC;
-			productRefGroup = 166A70E618361EB40068ACDC /* Products */;
+			mainGroup = 16D069021834F6A200D366EC;
+			productRefGroup = 16D0690C1834F6A200D366EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				166A70E418361EB40068ACDC /* CheckerBarCode */,
-				166A710518361EB40068ACDC /* CheckerBarCodeTests */,
+				16D0690A1834F6A200D366EC /* CheckerbarCode */,
+				16D0692B1834F6A200D366EC /* CheckerbarCodeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		166A70E318361EB40068ACDC /* Resources */ = {
+		16D069091834F6A200D366EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166A710118361EB40068ACDC /* Images.xcassets in Resources */,
-				166A70F318361EB40068ACDC /* InfoPlist.strings in Resources */,
-				166A70FC18361EB40068ACDC /* Main.storyboard in Resources */,
+				16D069271834F6A200D366EC /* Images.xcassets in Resources */,
+				16BCC3DA1835E92B00C5C083 /* CheckerBarCode.storyboard in Resources */,
+				16D069191834F6A200D366EC /* InfoPlist.strings in Resources */,
+				16D069221834F6A200D366EC /* CheckerBarCode_4inch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		166A710418361EB40068ACDC /* Resources */ = {
+		16D0692A1834F6A200D366EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166A711218361EB40068ACDC /* InfoPlist.strings in Resources */,
+				16D069381834F6A200D366EC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		166A70E118361EB40068ACDC /* Sources */ = {
+		16D069071834F6A200D366EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166A70FF18361EB40068ACDC /* ViewController.m in Sources */,
-				166A70F918361EB40068ACDC /* AppDelegate.m in Sources */,
-				166A70F518361EB40068ACDC /* main.m in Sources */,
+				166A71211836234B0068ACDC /* LoginPage.m in Sources */,
+				16BCC3D71835D4D100C5C083 /* AppDelegate.m in Sources */,
+				166A71241836235F0068ACDC /* Register.m in Sources */,
+				16D0691B1834F6A200D366EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		166A710218361EB40068ACDC /* Sources */ = {
+		16D069281834F6A200D366EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166A711418361EB50068ACDC /* CheckerBarCodeTests.m in Sources */,
+				16D0693A1834F6A200D366EC /* CheckerbarCodeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		166A710C18361EB40068ACDC /* PBXTargetDependency */ = {
+		16D069321834F6A200D366EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 166A70E418361EB40068ACDC /* CheckerBarCode */;
-			targetProxy = 166A710B18361EB40068ACDC /* PBXContainerItemProxy */;
+			target = 16D0690A1834F6A200D366EC /* CheckerbarCode */;
+			targetProxy = 16D069311834F6A200D366EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		166A70F118361EB40068ACDC /* InfoPlist.strings */ = {
+		16D069171834F6A200D366EC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				166A70F218361EB40068ACDC /* en */,
+				16D069181834F6A200D366EC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		166A70FA18361EB40068ACDC /* Main.storyboard */ = {
+		16D069201834F6A200D366EC /* CheckerBarCode_4inch.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				166A70FB18361EB40068ACDC /* Base */,
+				16D069211834F6A200D366EC /* Base */,
 			);
-			name = Main.storyboard;
+			name = CheckerBarCode_4inch.storyboard;
 			sourceTree = "<group>";
 		};
-		166A711018361EB40068ACDC /* InfoPlist.strings */ = {
+		16D069361834F6A200D366EC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				166A711118361EB40068ACDC /* en */,
+				16D069371834F6A200D366EC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -301,7 +343,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		166A711518361EB50068ACDC /* Debug */ = {
+		16D0693B1834F6A200D366EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		166A711618361EB50068ACDC /* Release */ = {
+		16D0693C1834F6A200D366EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,68 +415,70 @@
 			};
 			name = Release;
 		};
-		166A711818361EB50068ACDC /* Debug */ = {
+		16D0693E1834F6A200D366EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CheckerBarCode/CheckerBarCode-Prefix.pch";
-				INFOPLIST_FILE = "CheckerBarCode/CheckerBarCode-Info.plist";
+				GCC_PREFIX_HEADER = "CheckerbarCode/CheckerbarCode-Prefix.pch";
+				INFOPLIST_FILE = "CheckerbarCode/CheckerbarCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		166A711918361EB50068ACDC /* Release */ = {
+		16D0693F1834F6A200D366EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CheckerBarCode/CheckerBarCode-Prefix.pch";
-				INFOPLIST_FILE = "CheckerBarCode/CheckerBarCode-Info.plist";
+				GCC_PREFIX_HEADER = "CheckerbarCode/CheckerbarCode-Prefix.pch";
+				INFOPLIST_FILE = "CheckerbarCode/CheckerbarCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		166A711B18361EB50068ACDC /* Debug */ = {
+		16D069411834F6A200D366EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckerBarCode.app/CheckerBarCode";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckerbarCode.app/CheckerbarCode";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CheckerBarCode/CheckerBarCode-Prefix.pch";
+				GCC_PREFIX_HEADER = "CheckerbarCode/CheckerbarCode-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "CheckerBarCodeTests/CheckerBarCodeTests-Info.plist";
+				INFOPLIST_FILE = "CheckerbarCodeTests/CheckerbarCodeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		166A711C18361EB50068ACDC /* Release */ = {
+		16D069421834F6A200D366EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckerBarCode.app/CheckerBarCode";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckerbarCode.app/CheckerbarCode";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CheckerBarCode/CheckerBarCode-Prefix.pch";
-				INFOPLIST_FILE = "CheckerBarCodeTests/CheckerBarCodeTests-Info.plist";
+				GCC_PREFIX_HEADER = "CheckerbarCode/CheckerbarCode-Prefix.pch";
+				INFOPLIST_FILE = "CheckerbarCodeTests/CheckerbarCodeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -444,32 +488,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		166A70E018361EB40068ACDC /* Build configuration list for PBXProject "CheckerBarCode" */ = {
+		16D069061834F6A200D366EC /* Build configuration list for PBXProject "CheckerbarCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166A711518361EB50068ACDC /* Debug */,
-				166A711618361EB50068ACDC /* Release */,
+				16D0693B1834F6A200D366EC /* Debug */,
+				16D0693C1834F6A200D366EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		166A711718361EB50068ACDC /* Build configuration list for PBXNativeTarget "CheckerBarCode" */ = {
+		16D0693D1834F6A200D366EC /* Build configuration list for PBXNativeTarget "CheckerbarCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166A711818361EB50068ACDC /* Debug */,
-				166A711918361EB50068ACDC /* Release */,
+				16D0693E1834F6A200D366EC /* Debug */,
+				16D0693F1834F6A200D366EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		166A711A18361EB50068ACDC /* Build configuration list for PBXNativeTarget "CheckerBarCodeTests" */ = {
+		16D069401834F6A200D366EC /* Build configuration list for PBXNativeTarget "CheckerbarCodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166A711B18361EB50068ACDC /* Debug */,
-				166A711C18361EB50068ACDC /* Release */,
+				16D069411834F6A200D366EC /* Debug */,
+				16D069421834F6A200D366EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 166A70DD18361EB40068ACDC /* Project object */;
+	rootObject = 16D069031834F6A200D366EC /* Project object */;
 }

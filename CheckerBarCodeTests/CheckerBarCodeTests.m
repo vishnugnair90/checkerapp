@@ -1,18 +1,18 @@
 //
-//  CheckerBarCodeTests.m
-//  CheckerBarCodeTests
+//  CheckerbarCodeTests.m
+//  CheckerbarCodeTests
 //
-//  Created by Aravind on 11/15/13.
+//  Created by Aravind on 11/14/13.
 //  Copyright (c) 2013 Gizmoplay. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface CheckerBarCodeTests : XCTestCase
+@interface CheckerbarCodeTests : XCTestCase
 
 @end
 
-@implementation CheckerBarCodeTests
+@implementation CheckerbarCodeTests
 
 - (void)setUp
 {

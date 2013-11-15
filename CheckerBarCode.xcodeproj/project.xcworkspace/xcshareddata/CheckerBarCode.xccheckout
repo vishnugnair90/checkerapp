@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39D706C1-6D20-4637-ACAB-BE0B997D56F4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CheckerBarCode</string>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vishnugnair90/checkerapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+</dict>
+</plist>

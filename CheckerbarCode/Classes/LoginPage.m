@@ -9,9 +9,6 @@
 #import "LoginPage.h"
 
 @interface LoginPage ()
-{
-    NSArray *test;
-}
 
 @end
 

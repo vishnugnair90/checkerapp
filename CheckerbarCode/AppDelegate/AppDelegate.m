@@ -13,6 +13,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIStoryboard *storyBoard;
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    CGFloat screenHeight = screenRect.size.height;
+    if ((screenHeight == 1136) ||(screenHeight == 568))
+    {
+        storyBoard = [UIStoryboard storyboardWithName:@"CheckerBarCode_4inch" bundle:nil];
+    }
+    else
+    {
+        storyBoard = [UIStoryboard storyboardWithName:@"CheckerBarCode" bundle:nil];
+    }
+    UIViewController *initViewController = [storyBoard instantiateInitialViewController];
+    [self.window setRootViewController:initViewController];
     return YES;
     
 }

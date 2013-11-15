@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16BCC3D71835D4D100C5C083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BCC3D31835D4D100C5C083 /* AppDelegate.m */; };
+		16BCC3D81835D4D100C5C083 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BCC3D61835D4D100C5C083 /* LoginPage.m */; };
+		16BCC3DA1835E92B00C5C083 /* CheckerBarCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BCC3D91835E92B00C5C083 /* CheckerBarCode.storyboard */; };
 		16D0690F1834F6A200D366EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0690E1834F6A200D366EC /* Foundation.framework */; };
 		16D069111834F6A200D366EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D069101834F6A200D366EC /* CoreGraphics.framework */; };
 		16D069131834F6A200D366EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D069121834F6A200D366EC /* UIKit.framework */; };
 		16D069191834F6A200D366EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16D069171834F6A200D366EC /* InfoPlist.strings */; };
 		16D0691B1834F6A200D366EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0691A1834F6A200D366EC /* main.m */; };
-		16D0691F1834F6A200D366EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0691E1834F6A200D366EC /* AppDelegate.m */; };
-		16D069221834F6A200D366EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D069201834F6A200D366EC /* Main.storyboard */; };
-		16D069251834F6A200D366EC /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D069241834F6A200D366EC /* LoginPage.m */; };
+		16D069221834F6A200D366EC /* CheckerBarCode_4inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D069201834F6A200D366EC /* CheckerBarCode_4inch.storyboard */; };
 		16D069271834F6A200D366EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D069261834F6A200D366EC /* Images.xcassets */; };
 		16D0692E1834F6A200D366EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0692D1834F6A200D366EC /* XCTest.framework */; };
 		16D0692F1834F6A200D366EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D0690E1834F6A200D366EC /* Foundation.framework */; };
@@ -34,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16BCC3D21835D4D100C5C083 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16BCC3D31835D4D100C5C083 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16BCC3D51835D4D100C5C083 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		16BCC3D61835D4D100C5C083 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		16BCC3D91835E92B00C5C083 /* CheckerBarCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CheckerBarCode.storyboard; sourceTree = "<group>"; };
 		16D0690B1834F6A200D366EC /* CheckerbarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckerbarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D0690E1834F6A200D366EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16D069101834F6A200D366EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,11 +48,7 @@
 		16D069181834F6A200D366EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16D0691A1834F6A200D366EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16D0691C1834F6A200D366EC /* CheckerbarCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckerbarCode-Prefix.pch"; sourceTree = "<group>"; };
-		16D0691D1834F6A200D366EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		16D0691E1834F6A200D366EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16D069211834F6A200D366EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16D069231834F6A200D366EC /* LoginPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
-		16D069241834F6A200D366EC /* LoginPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		16D069211834F6A200D366EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CheckerBarCode_4inch.storyboard; sourceTree = "<group>"; };
 		16D069261834F6A200D366EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16D0692C1834F6A200D366EC /* CheckerbarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckerbarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D0692D1834F6A200D366EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16BCC3D11835D4D100C5C083 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				16BCC3D21835D4D100C5C083 /* AppDelegate.h */,
+				16BCC3D31835D4D100C5C083 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16BCC3D41835D4D100C5C083 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16BCC3D51835D4D100C5C083 /* LoginPage.h */,
+				16BCC3D61835D4D100C5C083 /* LoginPage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		16D069021834F6A200D366EC = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +132,10 @@
 		16D069141834F6A200D366EC /* CheckerbarCode */ = {
 			isa = PBXGroup;
 			children = (
-				16D0691D1834F6A200D366EC /* AppDelegate.h */,
-				16D0691E1834F6A200D366EC /* AppDelegate.m */,
-				16D069201834F6A200D366EC /* Main.storyboard */,
-				16D069231834F6A200D366EC /* LoginPage.h */,
-				16D069241834F6A200D366EC /* LoginPage.m */,
+				16BCC3D11835D4D100C5C083 /* AppDelegate */,
+				16BCC3D41835D4D100C5C083 /* Classes */,
+				16D069201834F6A200D366EC /* CheckerBarCode_4inch.storyboard */,
+				16BCC3D91835E92B00C5C083 /* CheckerBarCode.storyboard */,
 				16D069261834F6A200D366EC /* Images.xcassets */,
 				16D069151834F6A200D366EC /* Supporting Files */,
 			);
@@ -229,8 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D069271834F6A200D366EC /* Images.xcassets in Resources */,
+				16BCC3DA1835E92B00C5C083 /* CheckerBarCode.storyboard in Resources */,
 				16D069191834F6A200D366EC /* InfoPlist.strings in Resources */,
-				16D069221834F6A200D366EC /* Main.storyboard in Resources */,
+				16D069221834F6A200D366EC /* CheckerBarCode_4inch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D069251834F6A200D366EC /* LoginPage.m in Sources */,
-				16D0691F1834F6A200D366EC /* AppDelegate.m in Sources */,
+				16BCC3D71835D4D100C5C083 /* AppDelegate.m in Sources */,
 				16D0691B1834F6A200D366EC /* main.m in Sources */,
+				16BCC3D81835D4D100C5C083 /* LoginPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +302,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		16D069201834F6A200D366EC /* Main.storyboard */ = {
+		16D069201834F6A200D366EC /* CheckerBarCode_4inch.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				16D069211834F6A200D366EC /* Base */,
 			);
-			name = Main.storyboard;
+			name = CheckerBarCode_4inch.storyboard;
 			sourceTree = "<group>";
 		};
 		16D069361834F6A200D366EC /* InfoPlist.strings */ = {
@@ -381,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheckerbarCode/CheckerbarCode-Prefix.pch";
 				INFOPLIST_FILE = "CheckerbarCode/CheckerbarCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheckerbarCode/CheckerbarCode-Prefix.pch";
 				INFOPLIST_FILE = "CheckerbarCode/CheckerbarCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

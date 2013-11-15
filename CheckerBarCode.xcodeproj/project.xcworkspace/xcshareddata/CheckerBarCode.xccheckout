@@ -5,12 +5,47 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>39D706C1-6D20-4637-ACAB-BE0B997D56F4</string>
+	<string>27F2B50D-1542-49C2-B79E-E33910FF0A7A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CheckerBarCode</string>
+	<string>CheckerbarCode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EA583A07-09C2-409A-83EC-A720F4105B38</key>
+		<string>https://github.com/vishnugnair90/checkerapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CheckerbarCode.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5FD58FA-23DD-43EB-BA17-CDE5E2F89326</key>
+		<string>../..</string>
+		<key>EA583A07-09C2-409A-83EC-A720F4105B38</key>
+		<string>../../../CheckerbarCode</string>
+	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/vishnugnair90/checkerapp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5FD58FA-23DD-43EB-BA17-CDE5E2F89326</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA583A07-09C2-409A-83EC-A720F4105B38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheckerBarCode</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5FD58FA-23DD-43EB-BA17-CDE5E2F89326</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheckerBarCode</string>
+		</dict>
+	</array>
 </dict>
 </plist>
